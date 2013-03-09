@@ -1,20 +1,17 @@
-%% Machine Learning Online Class - Exercise 2: Logistic Regression
+
 %
 %  Instructions
 %  ------------
 % 
 %  This file contains code that helps you get started on the logistic
-%  regression exercise. You will need to complete the following functions 
-%  in this exericse:
+%  regression . You have the following functions here 
 %
 %     sigmoid.m
 %     costFunction.m
 %     predict.m
 %     costFunctionReg.m
-%
-%  For this exercise, you will not need to change any code in this file,
-%  or any other files other than those mentioned above.
-%
+
+
 
 %% Initialization
 clear ; close all; clc
@@ -27,7 +24,7 @@ data = load('ex2data1.txt');
 X = data(:, [1, 2]); y = data(:, 3);
 
 %% ==================== Part 1: Plotting ====================
-%  We start the exercise by first plotting the data to understand the 
+%  We start by first plotting the data to understand the 
 %  the problem we are working with.
 
 fprintf(['Plotting data with + indicating (y = 1) examples and o ' ...
@@ -50,11 +47,10 @@ pause;
 
 
 %% ============ Part 2: Compute Cost and Gradient ============
-%  In this part of the exercise, you will implement the cost and gradient
-%  for logistic regression. You neeed to complete the code in 
-%  costFunction.m
+%  In this part implement the cost and gradient
+%  for logistic regression is implemented.
 
-%  Setup the data matrix appropriately, and add ones for the intercept term
+
 [m, n] = size(X);
 
 % Add intercept term to x and X_test
@@ -75,10 +71,8 @@ pause;
 
 
 %% ============= Part 3: Optimizing using fminunc  =============
-%  In this exercise, you will use a built-in function (fminunc) to find the
-%  optimal parameters theta.
 
-%  Set options for fminunc
+% options for fminunc
 options = optimset('GradObj', 'on', 'MaxIter', 400);
 
 %  Run fminunc to obtain the optimal theta
@@ -116,8 +110,6 @@ pause;
 %  Furthermore, you will compute the training and test set accuracies of 
 %  our model.
 %
-%  Your task is to complete the code in predict.m
-
 %  Predict probability for a student with score 45 on exam 1 
 %  and score 85 on exam 2 
 
