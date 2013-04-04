@@ -1,20 +1,3 @@
-%% Machine Learning Online Class
-%  Exercise 8 | Anomaly Detection and Collaborative Filtering
-%
-%  Instructions
-%  ------------
-%
-%  This file contains code that helps you get started on the
-%  exercise. You will need to complete the following functions:
-%
-%     estimateGaussian.m
-%     selectThreshold.m
-%     cofiCostFunc.m
-%
-%  For this exercise, you will not need to change any code in this file,
-%  or any other files other than those mentioned above.
-%
-
 %% Initialization
 clear ; close all; clc
 

@@ -1,9 +1,3 @@
-%% Machine Learning Online Class
-%  Exercise 8 | Anomaly Detection and Collaborative Filtering
-%
-%  Instructions
-%  ------------
-%
 %  This file contains code that helps you get started on the
 %  exercise. You will need to complete the following functions:
 %
@@ -11,10 +5,6 @@
 %     selectThreshold.m
 %     cofiCostFunc.m
 %
-%  For this exercise, you will not need to change any code in this file,
-%  or any other files other than those mentioned above.
-%
-
 %% =============== Part 1: Loading movie ratings dataset ================
 %  You will start by loading the movie ratings dataset to understand the
 %  structure of the data.
@@ -70,10 +60,6 @@ pause;
 
 
 %% ============== Part 3: Collaborative Filtering Gradient ==============
-%  Once your cost function matches up with ours, you should now implement 
-%  the collaborative filtering gradient function. Specifically, you should 
-%  complete the code in cofiCostFunc.m to return the grad argument.
-%  
 fprintf('\nChecking Gradients (without regularization) ... \n');
 
 %  Check gradients by running checkNNGradients
@@ -101,11 +87,7 @@ pause;
 
 
 %% ======= Part 5: Collaborative Filtering Gradient Regularization ======
-%  Once your cost matches up with ours, you should proceed to implement 
-%  regularization for the gradient. 
-%
-
-%  
+ 
 fprintf('\nChecking Gradients (with regularization) ... \n');
 
 %  Check gradients by running checkNNGradients
