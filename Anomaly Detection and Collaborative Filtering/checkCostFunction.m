@@ -5,7 +5,7 @@ function checkCostFunction(lambda)
 %   to check your cost function and gradients, it will output the 
 %   analytical gradients produced by your code and the numerical gradients 
 %   (computed using computeNumericalGradient). These two gradient 
-%   computations should result in very similar values.
+%   computations should result in very similar values :)
 
 % Set lambda
 if ~exist('lambda', 'var') || isempty(lambda)
