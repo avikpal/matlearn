@@ -26,7 +26,7 @@ fprintf('Program paused. Press enter to continue.\n');
 pause
 
 
-%% ================== Part 2: Estimate the dataset statistics ===================
+%% ================= Part 2: Estimate the dataset statistics ==================
 %  For this exercise, we assume a Gaussian distribution for the dataset.
 %
 %  We first estimate the parameters of our assumed Gaussian distribution, 
