@@ -2,7 +2,7 @@
 clear ; close all; clc
 
 %% ================== Part 1: Load Example Dataset  ===================
-%  We start this exercise by using a small dataset that is easy to
+%  lets start this by using a small dataset that is easy to
 %  visualize.
 %
 %  Our example case consists of 2 network server statistics across
